@@ -1,2 +1,2 @@
-# Androiod App Development (Kotlin)
+# Android App Development (Kotlin)
 
