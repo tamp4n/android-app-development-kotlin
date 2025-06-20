@@ -9,7 +9,7 @@ fun main() {
 
     println("======================")
     var a = 5
-    val b = a++
+    val b = a++ // a dinaikkan, kemudian b bernilai 5
     println("a: $a")
     println("b: $b")
     val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
