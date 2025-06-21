@@ -2,6 +2,7 @@ package com.semeru.androidappdevkotlin.oop
 
 import com.semeru.androidappdevkotlin.classes.Cars
 import com.semeru.androidappdevkotlin.classes.MyCars
+import com.semeru.androidappdevkotlin.classes.MySecondCars
 
 fun main() {
 
@@ -17,5 +18,10 @@ fun main() {
 
     val myNewCar = MyCars("Mitsubishi", 2020)
     //println("My new car is ${myNewCar.name} and model is ${myNewCar.model}")
+
+    val mySecondCar = MySecondCars("Suzuki", 2025)
+    mySecondCar.name = "Honda"
+    mySecondCar.model = 2023
+    println("My second car is ${mySecondCar.name} and model is ${mySecondCar.model}")
 
 }
