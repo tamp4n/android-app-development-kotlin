@@ -1,6 +1,7 @@
 package com.semeru.androidappdevkotlin.oop
 
 import com.semeru.androidappdevkotlin.classes.Cars
+import com.semeru.androidappdevkotlin.classes.MyCars
 
 fun main() {
 
@@ -13,5 +14,8 @@ fun main() {
     yourCar.name = "Honda"
     yourCar.model = 2022
     println("Your first car is ${yourCar.name} and model is ${yourCar.model}")
+
+    val myNewCar = MyCars("Mitsubishi", 2020)
+    //println("My new car is ${myNewCar.name} and model is ${myNewCar.model}")
 
 }
