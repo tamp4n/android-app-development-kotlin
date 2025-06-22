@@ -21,7 +21,7 @@ fun main() {
 
     val mySecondCar = MySecondCars("Suzuki", 2025)
     mySecondCar.name = "Honda"
-    mySecondCar.model = 2023
-    println("My second car is ${mySecondCar.name} and model is ${mySecondCar.model}")
+    //mySecondCar.model = 2023 //setter
+    println("My second car is ${mySecondCar.name} and model is ${mySecondCar.model}") //getter
 
 }
